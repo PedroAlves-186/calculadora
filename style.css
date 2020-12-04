@@ -1,0 +1,70 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid;
+    border-color: black;
+    height: 480px;
+    margin-top: 60px;
+    background-color: lightslategray;
+    border-radius: 20px;
+
+
+}
+
+.containerVisor{
+    background-color: aliceblue;
+
+    border: 2px solid;
+    margin-top: 20px;
+
+    border-radius: 9px;
+
+    height: 40px;
+
+    display: flex;
+    border-color: black;
+    align-items: center;
+
+}
+.containerNumbers{
+
+    display: flex;
+    justify-content: center;
+    
+}
+.button{
+
+    border: 2px solid;
+    border-color: black;
+    background-color: gold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 60px;
+
+    margin-top: 10px;
+    margin-right: 15px;
+
+    cursor: pointer;
+    
+}
+
+.buttonOperador{ 
+    background-color: dodgerblue;
+    margin-right: 0px;
+
+}
+.buttonresult{
+background-color: darkturquoise;
+
+} 
+
